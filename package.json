@@ -1,0 +1,23 @@
+{
+  "name": "announcerr",
+  "version": "1.0.0",
+  "description": "An action that simply sends a mail to multiple recipients on release",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhkshitij/announcerr.git"
+  },
+  "author": "dawidd6",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/singhkshitij/announcerr/issues"
+  },
+  "homepage": "https://github.com/singhkshitij/announcerr#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "nodemailer": "^6.4.11"
+  }
+}
