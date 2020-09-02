@@ -1,6 +1,6 @@
 # Announcerr Github Action
 
-Automatically announce and send mails to list of subscribers on every product release 🚀 
+Automatically announce and send emails to list of subscribers on every product release 🚀 
 
 [Demo Project](https://github.com/singhkshitij/announcerr-demo)
 
