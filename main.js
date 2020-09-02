@@ -44,6 +44,7 @@ async function main() {
 
         const info = await transport.sendMail({
             from: get_from(from, username),
+            to: get_from(from, username),
             bcc: to,
             replyTo: get_from(from, username),
             subject: subject,
