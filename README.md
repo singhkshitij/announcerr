@@ -2,6 +2,8 @@
 
 Automatically announce and send mails to list of subscribers on every product release 🚀 
 
+[Demo Project](https://github.com/singhkshitij/announcerr-demo)
+
 ## Usage
 
 ```yaml
