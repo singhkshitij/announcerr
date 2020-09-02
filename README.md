@@ -24,3 +24,5 @@ Automatically announce and send mails to list of subscribers on every product re
     # Optional attachments:
     attachments: attachments.zip,git.diff,./dist/static/main.js
 ```
+
+*Caution: Some email server provider such as Gmail do not allow password directly to be used in such apps and might block login if we try to give plain password directly. Please follow [this guide to generate app password](https://support.google.com/accounts/answer/185833?hl=en) which can then be used to authenticate Gmail account and send mails.*
