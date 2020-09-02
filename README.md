@@ -12,13 +12,13 @@ Automatically announce and send mails to list of subscribers on every product re
     server_port: 465
     username: ${{secrets.MAIL_USERNAME}}
     password: ${{secrets.MAIL_PASSWORD}}
-    subject: Github Actions job result
+    subject: Launching my awesomeProduct version ${{ github.event.release.tag_name }}
     # Literal body:
-    body: Build job of ${{github.repository}} completed successfully!
+    body: Just launched new version of my ${{github.repository}} ! It is fully packed with awesome features.
     # Read file contents as body:
     body: file://README.md
-    to: obiwan@tatooine.com,yoda@dagobah.com
-    from: Luke Skywalker # <user@example.com>
+    to: user1@xyz.com,user2@abc.com
+    from: Kshitij Singh # <kshitij@mytrashcode.com>
     # Optional content type (defaults to text/plain):
     content_type: text/html
     # Optional attachments:
