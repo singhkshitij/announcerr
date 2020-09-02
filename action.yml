@@ -3,7 +3,7 @@ description: Automatically announce and send mails to list of subscribers on eve
 author: singhkshitij
 branding:
   icon: send
-  color: blue
+  color: red
 inputs:
   server_address:
     description: SMTP server address
